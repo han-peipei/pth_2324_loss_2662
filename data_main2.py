@@ -36,7 +36,7 @@ def interpolate_to_station(coords, tree, nwp_data):
 # ROOT  = os.path.join(BASE_DIR, "download_48h","train", f"{station_id[0]}_{time[:-2]}",str(station_id[0]))
 
 # ROOT = "/mnt/g/test_24_train/54456"   # 
-ROOT = "/kaggle/input/datasets/niaosilius/d0029-sta/D0029" 
+ROOT = "/kaggle/input/datasets/niaosilius/54552-sta/54552" 
 # ROOT = "/kaggle/input/datasets/niaosilius/stations-25train1-12-all/stations_25(train)(1-12月)_all"   # 
 # csv_path =os.path.join(BASE_DIR, "download_48h", "station",f"{station_id[0]}_{time[:-2]+'06'}_past48h.csv")
 csv_path = "2023.csv"  # ← 站点信息CSV
